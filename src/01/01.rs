@@ -23,7 +23,7 @@ pub fn run_day1_1(file_path: &str){
     }
 
 
-    println!("01_1 Solution:{}", val)
+    println!("01_1 Solution: {}", val)
     // print val
 }
 
@@ -47,7 +47,7 @@ pub fn run_day1_2(file_path: &str){
     }
 
 
-    println!("01_2 Solution:{}", val)
+    println!("01_2 Solution: {}", val)
     // print val
 }
 
