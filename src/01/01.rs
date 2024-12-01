@@ -3,6 +3,12 @@ use std::io::{self, BufRead};
 use std::path::Path;
 use regex::Regex;
 
+pub fn run_day1(file_path: &str){
+    println!("Day 1");
+    run_day1_1(file_path);
+    run_day1_2(file_path);
+    println!("___");
+}
 
 pub fn run_day1_1(file_path: &str){
     //println!("Calculating solution for Day 1_1");
