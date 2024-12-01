@@ -7,4 +7,5 @@ fn main() {
     let file_path:&str = "src/01/input";
     run_day1_1(file_path);
     run_day1_2(file_path);
+    println!("_________")
 }

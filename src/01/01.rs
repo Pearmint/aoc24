@@ -5,7 +5,7 @@ use regex::Regex;
 
 
 pub fn run_day1_1(file_path: &str){
-    println!("Calculating solution for Day 1_1");
+    //println!("Calculating solution for Day 1_1");
 
     let (mut left, mut right) = parse_input(file_path);
 
@@ -23,12 +23,12 @@ pub fn run_day1_1(file_path: &str){
     }
 
 
-    println!("01_1 Solution {}", val)
+    println!("01_1 Solution:{}", val)
     // print val
 }
 
 pub fn run_day1_2(file_path: &str){
-    println!("Calculating solution for Day 1_2");
+    //println!("Calculating solution for Day 1_2");
 
     let (mut left, mut right) = parse_input(file_path);
 
